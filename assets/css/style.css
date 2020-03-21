@@ -1,4 +1,16 @@
 h1 {
-    color: red;
+    color: #00FFFF;
     margin-top: 2em;
+}
+
+body { 
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("../images/crystal-ball.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
 }
